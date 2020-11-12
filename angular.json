@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-coming-soon"
+    }
+  },
+  "defaultProject": "angular-coming-soon",
+  "cli": {
+    "analytics": "8a71ab06-c7fb-4b64-bfa3-84fcb47996e8"
+  }
 }
