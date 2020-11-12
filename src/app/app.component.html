@@ -1,8 +1,9 @@
 <div class="container">
-  <section>
-    <app-title></app-title>
+  <section *ngIf="!loading" class="content">
+    <app-title [futureDate]="futureDate"></app-title>
+    <app-counter [futureDate]="futureDate"></app-counter>
   </section>
-  <section>
-    <app-counter></app-counter>
+  <section *ngIf="loading">
+    <app-loader></app-loader>
   </section>
 </div>

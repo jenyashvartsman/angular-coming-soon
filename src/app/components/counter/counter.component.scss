@@ -1,0 +1,17 @@
+.counter-wrapper {
+  text-align: center;
+
+  .counter-item {
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    &:hover {
+      transform: scale(1.3);
+      color: #34c0eb;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+}
